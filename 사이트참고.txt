@@ -1,3 +1,8 @@
+https://www.kia.com/kr/main.html
+https://www.jeep.co.kr/
+[슬릭]
+http://kenwheeler.github.io/slick/
+
 [배경 패턴 넣기]
 .section1 .bx-wrapper .bx-viewport .list > li:before {
     content: '';
