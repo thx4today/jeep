@@ -1,0 +1,53 @@
+[배경 패턴 넣기]
+.section1 .bx-wrapper .bx-viewport .list > li:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: url(/home/img/main/pattern.png);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+[스크롤 다운]
+.section1 .scroll i {
+    display: block;
+    -webkit-animation: down 1.5s ease infinite;
+    animation: down 1.5s ease infinite;
+    margin-top: 0;
+}
+.xi-caret-down-min:before {
+    content: "\e936";
+}
+
+[visual_nav]
+.section1 .visual-nav {
+    position: relative;
+    position: absolute;
+    right: 0;
+    top: calc(50% + 1.25rem);
+    height: calc(100vh - 2.5rem);
+    max-height: 28rem;
+    -webkit-transform: translate(55%, -50%);
+    transform: translate(55%, -50%);
+    z-index: 52;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.section1 .visual-nav::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    width: 18rem;
+    height: 46vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transition: all 0.5s ease;
+    background: linear-gradient(to bottom, #9c1c2b 0%, #db283d 100%, #db283d 101%);
+    max-height: 15rem;
+}
