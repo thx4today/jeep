@@ -3,6 +3,10 @@ https://www.jeep.co.kr/
 [슬릭]
 http://kenwheeler.github.io/slick/
 
+[색상정보]
+노란색 : FFBA00
+
+
 [배경 패턴 넣기]
 .section1 .bx-wrapper .bx-viewport .list > li:before {
     content: '';
