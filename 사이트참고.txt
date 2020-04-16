@@ -3,6 +3,9 @@ https://www.jeep.co.kr/
 [슬릭]
 http://kenwheeler.github.io/slick/
 
+<head.sub.php>
+1. css 슬릭테마 / 그냥 슬릭
+2. js 슬릭 
 [색상정보]
 노란색 : FFBA00
 
